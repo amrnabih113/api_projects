@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
-import 'package:api_projects/NewsModel.dart';
+import 'package:api_projects/Api_news/NewsModel.dart';
 import 'package:http/http.dart' as http;
 
 class NewsApi {

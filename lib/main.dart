@@ -1,5 +1,5 @@
-import 'package:api_projects/News.dart';
-import 'package:api_projects/store.dart';
+import 'package:api_projects/Api_news/News.dart';
+import 'package:api_projects/Api_store/store.dart';
 import 'package:flutter/material.dart';
 
 void main() {

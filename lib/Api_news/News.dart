@@ -1,5 +1,5 @@
-import 'package:api_projects/NewsModel.dart';
-import 'package:api_projects/sevices.dart';
+import 'package:api_projects/Api_news/NewsModel.dart';
+import 'package:api_projects/Api_news/sevices.dart';
 import 'package:flutter/material.dart';
 
 class News extends StatefulWidget {
