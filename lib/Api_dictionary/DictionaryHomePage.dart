@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:api_projects/Api_dictionary/DictionaryModel.dart';
 import 'package:api_projects/Api_dictionary/services.dart';
 import 'package:flutter/material.dart';
@@ -80,7 +82,7 @@ class _DictionaryHomePageState extends State<DictionaryHomePage> {
               const SizedBox(height: 10),
               if (isloading)
                 const LinearProgressIndicator(
-                  backgroundColor: const Color(0xffac9c8d),
+                  backgroundColor: Color(0xffac9c8d),
                   valueColor: AlwaysStoppedAnimation<Color>(Color(0xff561c24)),
                 )
               else if (mymodel == null)
