@@ -1,4 +1,3 @@
-import 'package:api_projects/Api_dictionary/DictionaryHomePage.dart';
 import 'package:api_projects/Api_news/News.dart';
 import 'package:flutter/material.dart';
 
@@ -16,6 +15,6 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return const DictionaryHomePage();
+    return const News();
   }
 }
