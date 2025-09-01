@@ -1,5 +1,3 @@
-// ignore_for_file: avoid_print
-
 import 'package:api_projects/Api_store/carts.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
